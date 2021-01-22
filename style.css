@@ -1,0 +1,43 @@
+/* end product lol */
+/* img {
+  display: block;
+  margin: 0 auto;
+} */
+
+@font-face {
+  font-family: BiteChocolate;
+  src: url(BiteChocolate-2RGl.ttf);
+}
+
+
+
+
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 30px;
+  display: flex;
+}
+
+.logoTop {
+  display: flex; 
+}
+
+.logoTop img {
+  margin-right: 12px;
+  width: 50px;
+}
+
+.logoTop h1 {
+  font-family: BiteChocolate;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.logoTop p {
+  font-size: 10px;
+}
