@@ -17,6 +17,7 @@ body {
   width: 960px;
   margin: 0 auto;
 }
+
 header {
   display:flex;
   flex-direction: row;
@@ -29,6 +30,20 @@ h1 {
 nav {
   display: flex;
   width:100%;
+=======
+header { 
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+}
+ h1 {
+   margin-top: 20;
+   height: fit-content;
+ } 
+ nav { 
+  display: flex;
+  width: 100;
+
 }
 
 .logoTop {
@@ -51,6 +66,7 @@ nav {
   font-size: 10px;
 }
 .headerIcons {
+
   display: flex;
   margin-left:auto;
   align-items: center;
@@ -172,3 +188,27 @@ footer {
   text-align: center;
   margin-bottom:80px;
 }
+  margin-left:auto;
+}
+display: flex;
+margin-left:auto;
+align-items: center
+}
+.reachOut {
+  margin-left: left 10px;
+}
+.greybar {
+  width: 100%;
+  height: 15;
+  background-image: url (images/hr-img.png);
+}
+main {
+  margin-top: 40;
+}
+hero h2 {
+  font-family: serif;
+  font-size: 30;
+  font-weight: bold;
+}
+
+
