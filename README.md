@@ -1,14 +1,10 @@
 # chocolate-pizza
 lab 10
 
-
 ## authors 
-
-Michelle 
+Michelle Pannosch
 
 Matthew Simms
-
-
 
 https://stackoverflow.com/questions/50649275/use-checkbox-for-list-style-type-in-unordered-list-in-html helped with checkboxes
 
