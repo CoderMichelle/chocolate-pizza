@@ -1,17 +1,27 @@
-/* end product lol */
-/* img {
-  display: block;
-  margin: 0 auto;
-} */
 
 @font-face {
   font-family: BiteChocolate;
   src: url(BiteChocolate-2RGl.ttf);
 }
 
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald-ymXe.ttf);
+}
 
+@font-face {
+  font-family: NunitoRegular;
+  src: url(../fonts/NunitoRegular-vmABZ.ttf);
+  font-family: NunitoExtraLight;
+  src: url(../fonts/NunitoExtralignt-YzEeq.ttf);
+  font-family: NunitoLight;
+  src: url(../fonts/PacificoRegular-BXvV.ttf);
+}
 
-
+@font-face {
+  font-family: YellowtailRegular;
+  src: url(../fonts/Yellowtail-Regular.ttf);
+}
 
 body {
   width: 960px;
@@ -46,6 +56,7 @@ nav {
   display: flex;
   width: 100;
 
+
 }
 
 .logoTop {
@@ -66,7 +77,10 @@ nav {
 
 .logoTop p {
   font-size: 10px;
+  font-family: Oswald;
+  color: #999;
 }
+
 .headerIcons {
   display: flex;
   margin-left:auto;
@@ -119,7 +133,7 @@ main {
 }
 .recipe {
   display:flex;
-  background-image: url(images/list-bg.png);
+  background-image: url('../images/list-bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -175,7 +189,7 @@ button {
 .greyBar2 {
   width: 450px;
   height:2px;
-  background-image: url(images/hr-img.png);
+  background-image: url('../images/hr-img.png');
   margin-top: 20px;
 }
 .footerBorder {
@@ -189,12 +203,9 @@ footer {
   margin-top:100px;
   text-align: center;
   margin-bottom:80px;
-}
-  margin-left:auto;
-}
-display: flex;
-margin-left:auto;
-align-items: center
+  display: flex;
+  flex-direction: column;
+  align-items: center
 }
 .reachOut {
   margin-left: left 10px;
@@ -202,8 +213,9 @@ align-items: center
 .greybar {
   width: 100%;
   height: 15;
-  background-image: url (images/hr-img.png);
+  background-image: url ('../images/hr-img.png');
 }
+
 main {
   margin-top: 40;
 }
